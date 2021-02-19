@@ -1,0 +1,27 @@
+SELECT *
+FROM product
+WHERE price < 17000000;
+
+SELECT *
+FROM product
+WHERE price >= 14000000 AND price <= 20000000;
+
+SELECT *
+FROM product
+WHERE price <> 15000000;
+
+SELECT *
+FROM product
+WHERE NOT price = 15000000;
+
+SELECT *
+FROM product
+WHERE price BETWEEN 15000000 AND 30000000;
+
+SELECT *
+FROM product
+WHERE price IN (14000000, 15000000);
+
+SELECT *
+FROM product
+WHERE product_name LIKE '%X%';
